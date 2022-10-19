@@ -7,8 +7,8 @@ export default function App() {
 
   function clickPlus() {
 
-    // setCount(count + 1)
-    // count como parametro refere-se ao atual de count
+    // setCount(count + 1) //-definindo pegar valor de count + 1 
+    // count como parametro refere-se ao atual valor de count
     // alterando valor utilizando callback
     setCount((count) => {
 
