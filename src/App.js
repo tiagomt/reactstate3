@@ -1,5 +1,6 @@
 import React from "react"
 import './style.css'
+import Count from "./Count"
 
 export default function App() {
 
@@ -33,9 +34,8 @@ export default function App() {
   return (
     <div className="counter">
       <button className="counter--minus" onClick={clickMinus}>–</button>
-      <div className="counter--count">
-        <h1>{count}</h1>
-      </div>
+      {/* passando state count como props */}
+      <Count number={count} />
       <button className="counter--plus" onClick={clickPlus}>+</button>
     </div>
   )
