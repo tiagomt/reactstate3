@@ -19,7 +19,7 @@ export default function App() {
 
   }
 
-
+  // Sempre que o state do component for alterado, ele é renderizado novamente
   function clickMinus() {
 
     // setCount(count - 1)
